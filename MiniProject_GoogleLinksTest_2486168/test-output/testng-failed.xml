@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CrossBrowserSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="EdgeTest(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="com.selenium.miniProject.GoogleCognizantTest">
+        <methods>
+          <include name="findSearchResultsCount"/>
+          <include name="clickImagesTab"/>
+          <include name="clickNewsTab"/>
+          <include name="tearDown"/>
+          <include name="clickAllTab"/>
+          <include name="setUp"/>
+          <include name="clickVideosTab"/>
+        </methods>
+      </class> <!-- com.selenium.miniProject.GoogleCognizantTest -->
+    </classes>
+  </test> <!-- EdgeTest(failed) -->
+</suite> <!-- Failed suite [CrossBrowserSuite] -->
